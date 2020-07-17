@@ -188,6 +188,15 @@ th, td {
 .gif {
     margin-top: 2rem;
 }
+
+#porcentaje {
+    padding-bottom: 5rem;
+}
+
+#ucontratadas {
+    margin-bottom: 5rem;
+}
+
 @media screen and (max-width: 480px) {
     br {
         display: none;
@@ -248,5 +257,13 @@ th, td {
     
     #margin-especial {
         margin-top: 0;
+    }
+    #porcentaje {
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+    }
+    #ucontratadas {
+        margin-bottom: 3.5rem;
+        padding-top: 2.5rem;
     }
 }
