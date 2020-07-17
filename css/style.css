@@ -188,6 +188,11 @@ th, td {
 .gif {
     margin-top: 2rem;
 }
+.wrapper {
+    height: 40vh;
+    margin-top: 6rem;
+}
+
 @media screen and (max-width: 480px) {
     br {
         display: none;
