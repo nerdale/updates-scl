@@ -153,6 +153,9 @@ th, td {
     background: linear-gradient(to bottom, #ffffff 0%,#ffffff 51%, #fee54d 52%,#fee54d 100%);
 }
 
+.span-title-verde {
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 51%, #71F69A 52%,#71F69A 100%);
+}
 .subtitle {
     margin: 0;
 }
@@ -210,6 +213,15 @@ th, td {
     margin-left: 3rem;
     margin-right: 3rem;
 }
+
+.centrartexto
+{
+    text-align: center;
+}
+
+
+
+
 
 @media screen and (max-width: 480px) {
     br {
