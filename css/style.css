@@ -214,15 +214,18 @@ th, td {
     margin-right: 3rem;
 }
 
-.centrartexto
-{
+.centrartexto {
     text-align: center;
 }
 
+.bg-white {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
 
-
-
-
+.card-deck {
+    padding-bottom: 2rem;
+}
 @media screen and (max-width: 480px) {
     br {
         display: none;
@@ -231,11 +234,11 @@ th, td {
     thead {
         display: none;
     }
-
+    /*
     table th {
         background-color: #71F69A;
     }
-
+    */
     table tr, table th, table td {
         display: block;
         padding: 0;
@@ -284,4 +287,11 @@ th, td {
     #margin-especial {
         margin-top: 0;
     }
+
+    #columnchart_material {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
 }

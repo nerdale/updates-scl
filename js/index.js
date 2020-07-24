@@ -1,100 +1,35 @@
-/*
-const canv = document.getElementById('myChart').getContext('2d');
-let myChart = new Chart(canv, {
-    type: 'bar',
-    data: {
-        labels: ['SCL011', 'SCL012', 'SCL013', "SCL014"],
-        datasets: [{
-            label: 'Pagos Realizados',
-            data: [12, 29, 3, 90],
-            backgroundColor: [
-                '#fee54d',
-                '#EC459E',
-                '#71F69A',
-                "#5B5756"
-            ]
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        },
-        legend: {
-            display: false
-        },
-        responsive: true,
-        maintainAspectRatio: false
-    }
-});
+google.charts.load('current', {'packages':['bar']});
+google.charts.setOnLoadCallback(drawChart);
 
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Mes', 'Anteriores ', 'SCL008', 'SCL009', 'SCL010', 'SCL011', 'SCL012'],
+    ['Enero', 1000, 100, 300, 400, 100, 350],
+    ['Febrero', 100, 100, 300, 400, 100, 350],
+    ['Marzo', 100, 100, 300, 400, 100, 350],
+    ['Abril', 100, 100, 300, 400, 100, 350],
+    ['Mayo', 100, 100, 300, 400, 100, 350],
+    ['Junio', 100, 100, 300, 400, 100, 350],
+    ['Julio', 100, 100, 300, 400, 100, 350]
+  ]);
 
-const canv2 = document.getElementById('myChart2').getContext('2d');
-let myChart2 = new Chart(canv2, {
-    type: 'bar',
-    data: {
-        labels: ['SCL011', 'SCL012', 'SCL013', "SCL014"],
-        datasets: [{
-            label: 'Pagos Realizados',
-            data: [12, 29, 3, 90],
-            backgroundColor: [
-                '#fee54d',
-                '#EC459E',
-                '#71F69A',
-                "#5B5756"
-            ]
-        }]
+  var options = {
+    chart: {
+      title: 'Ingresos mensuales Coders Fee',
+      subtitle: '2019',
     },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        },
-        legend: {
-            display: false
-        },
-        responsive: true,
-        maintainAspectRatio: false
-    }
-});
-*/
-const canv3 = document.getElementById('Codersfee2020').getContext('2d');
-let Codersfee2020 = new Chart(canv3, {
-    type: 'bar',
-    data: {
-        labels: ['Enero', 'Febrero', 'Marzo', "Abril", "Mayo", "Junio", "Julio"],
-        datasets: [{
-            label: 'Total',
-            data: [3770000, 5320000, 5820000, 4130000, 5500000, 6100000],
-            backgroundColor: [
-                '#71F69A',
-                '#71F69A',
-                '#71F69A',
-                '#71F69A',
-                '#71F69A',
-                '#71F69A',
+    height: 400,
+    series: {
+        0: { color: '#50BDC6' },
+        1: { color: '#71F69A' },
+        2: { color: '#FEE54D' },
+        3: { color: '#EC459E' },
+        4: { color: '#3F9AAA' },
+        5: { color: '#F39849' }
+      }
+  };
 
-                ]
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        },
-        legend: {
-            display: false
-        },
-        responsive: true,
-        maintainAspectRatio: false
-    }
-});
+  var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+  chart.draw(data, google.charts.Bar.convertOptions(options));
+}
