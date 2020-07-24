@@ -197,6 +197,21 @@ th, td {
     margin-bottom: 5rem;
 }
 
+#tablacontratadas {
+    margin-top: 3rem;
+}
+
+#tablainsights {
+    margin-bottom: 3rem;
+}
+
+#minititulo {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    text-align: leftenter;
+}
+
+
 @media screen and (max-width: 480px) {
     br {
         display: none;
@@ -266,4 +281,5 @@ th, td {
         margin-bottom: 3.5rem;
         padding-top: 2.5rem;
     }
-}
+
+   
