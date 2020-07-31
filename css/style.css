@@ -153,6 +153,10 @@ th, td {
     background: linear-gradient(to bottom, #ffffff 0%,#ffffff 51%, #fee54d 52%,#fee54d 100%);
 }
 
+.span-title-mentix {
+    background: linear-gradient(to bottom, #F7F7F7 0%, #F7F7F7 51%, #71F69A 52%,#71F69A 100%);
+}
+
 .subtitle {
     margin: 0;
 }
@@ -220,6 +224,13 @@ th, td {
     margin-top: 7rem;
 }
 
+.img-icon {
+    width: 65%;
+}
+
+.iconscenter {
+   text-align: center;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -287,9 +298,23 @@ th, td {
         padding-bottom: 2.5rem;
         padding-top: 2.5rem;
     }
+
     #ucontratadas {
         margin-bottom: 3.5rem;
         padding-top: 2.5rem;
     }
 
-   
+    .img-icon {
+        width: 50%;
+    } 
+    
+    #resumenmes{
+        padding-top: 2rem;
+    }
+
+    
+    table #insightsamarillos{
+        background-color: #fee54d !important;
+    }
+
+}
