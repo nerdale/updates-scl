@@ -226,6 +226,15 @@ th, td {
 .card-deck {
     padding-bottom: 2rem;
 }
+
+.alineadoizq {
+    text-align: left !important;
+}
+
+#gifdepicza{
+    width: 100%;
+}
+
 @media screen and (max-width: 480px) {
     br {
         display: none;
@@ -292,6 +301,10 @@ th, td {
         width: 100%;
         overflow-x: auto;
         white-space: nowrap;
+    }
+
+    #titulohalloffame {
+        padding-top: 5rem;
     }
 
 }
