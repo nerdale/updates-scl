@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/lab.png">
+    <title>Update Finanzas SCL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/697a884d25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="container-fluid" id="container-logo">
+    <div class="row">
+      <div class="col-md-4 offset-md-4 col-sm-4">
+        <a href="./../index.html"><img src="./img/Laboratoria-Logo-RGB.png" alt="Logo-Laboratoria" id="img-logo"></a>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-8 offset-md-2">
+          <ul>
+              <li>
+                  <a href="./../bootcamp/index.html">Bootcamp</a>
+              </li>
+              <li>
+                  <a href="#">Coders Fee</a>
+              </li>
+              <li>
+                  <a href="#">Placement</a>
+              </li>
+          </ul>
+      </div>
+  </div>     
+  </section>
+    <!-- bloque color amarillo de Coders Fee -->
+    <section class="container-fluid" id="yellow">
+        <div class="row no-gutters">
+            <div class="col-md-6 offset-md-3">
+                <h4 class="margin-title-principal"><span class="span-title">Entendiendo el Coders Fee SCL<br>(modelo de pago)</span></h4>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-6 offset-md-3">
+                <p class="margin-title-principal">Siempre hablamos del <b>Coders Fee</b> y que es muy importante que aumente. Pero <b>¿qué es?, ¿cuánto es?, ¿cómo se paga?</b>, estas y muchas otras dudas se resolverán acá.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Información básica sobre el modelo de pago -->
+  <section class="container-fluid bg-gray">
+    <div class="row no-gutters">
+      <div class="col-md-4 offset-md-4">
+          <h4 class="title-h4">Información General</h4>
+      </div>
+    </div>
+
+    <div class="col-md-8 offset-md-2 table-responsive tabladatos">
+      <table class="table">
+        <thead class="bg-green">
+          <tr>
+            <th>Total a pagar</th>
+            <th>Cantidad de cuotas</th>
+            <th>Valor cuota promedio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th data-title="Total a pagar" scope="row">$1.300.000</th>
+            <td data-title="Cantidad de cuotas">24</td>
+            <td data-title="Valor cuota promedio">$54.166</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </section>
+
+    <section class="container-fluid bg-gray">
+      <div class"row">
+        <div class="col-md-8 offset-md-2">
+          <p class= "alineadoizq">&bull; Las egresadas Chilenas pagan por máximo 24 meses</p>
+          <p class= "alineadoizq">&bull; Tenemos una app donde se registran todas las cuotas y pagos llamado Duemint</p>
+          <p class= "alineadoizq">&bull; Luego de 1 mes de trabajo, las egresadas comienzan a pagar sus cuotas</p>
+        </div>
+      </div>
+    </section>
+
+  <!-- Ingresos Totales en Coders Fee-->
+  <section class="container-fluid bg-white">
+    <div class="row no-gutters">
+      <div class="col-md-12">
+        <h4 class="title-h4">Ingresos (plata $) mensuales por Coders Fee </h4>
+      </div>
+    </div>
+    <!-- gráfico 1 -->
+    <div class="row no-gutters">
+      <div class="col-md-8 offset-md-2">
+        <div id="columnchart_material"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- explicacíón ridícula del monto de  CF-->
+  <section class="container-fluid bg-gray">
+    <div class="row no-gutters">
+      <div class="col-md-6 offset-md-3">
+        <h4 class="title-h4">¿Qué significan estos ingresos?</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid bg-gray">
+    <div class="row">
+      <div class="col-10 offset-1 col-md-4 offset-md-2">
+        <p class= "alineadoizq">&bull; Las egresadas Chilenas pagan por máximo 24 meses</p>
+      </div>
+      <div class="col-md-4">
+          <img src="./img/GIF-PIZZA-Lab.gif" id="gifdepicza" alt="gifdepizza">
+      </div>
+    </div>
+  </section>
+
+  <!-- Hall of fame de las que terminaron sus cuotas-->
+  <section class="container-fluid bg-gray">
+    <div class="row no-gutters">
+      <div class="col-md-6 offset-md-3">
+        <h4 class="title-h4" id="titulohalloffame">Durante Junio, las siguientes egresadas terminaron de pagar sus cuotas <p class="subtitle"><span class="span-fe"> ¡Felicidaaaaad!</span></p></h4>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-md-8 offset-md-2">
+        <div class="card-deck centrartexto">
+
+          <div class="card">
+            <img src="img/Estefanía Osses.jpg" class="card-img-top" alt="Estefania Osses">
+            <div class="card-body">
+              <h5 class="card-title">Estefania Osses</h5>
+              <p class="card-text"><span class="span-fe">SCL005</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/Agustina Valenti.jpg" class="card-img-top" alt="María Agustina Valenti">
+            <div class="card-body">
+              <h5 class="card-title">Agustina Valenti</h5>
+              <p class="card-text"><span class="span-fe">SCL005</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/Adriana Pérez2.jpg" class="card-img-top" alt="Adriana Pérez">
+            <div class="card-body">
+              <h5 class="card-title">Adriana Pérez</h5>
+              <p class="card-text"><span class="span-fe">SCL006</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/Valeria Droguett2.JPG" class="card-img-top" alt="Valeria Drogett">
+            <div class="card-body">
+              <h5 class="card-title">Valeria Droguett</h5>
+              <p class="card-text"><span class="span-fe">SCL006</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/Stephanie Mayen2.JPG" class="card-img-top" alt="Ana Stephanie Mayen">
+            <div class="card-body">
+              <h5 class="card-title">Stephanie Mayen</h5>
+              <p class="card-text"><span class="span-fe">SCL008</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+      <!-- final -->
+    <section class="container-fluid" id="final">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h4 class="gif">Adiós!</h4>
+                <img src="./img/Adios (1).gif" class="img-fluid" alt="Adios">
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
