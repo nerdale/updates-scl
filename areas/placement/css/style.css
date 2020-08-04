@@ -16,11 +16,33 @@
 
 /* Pueden jugar con estos estilos si es que quieren ir experimentando :) */
 
+ul {
+    text-align: center;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+ul li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+}
+ul li a:hover {
+    display: inline;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
 #container-logo {
     width: 100%;
     height: 5rem;
     background-color:#FFFFFF;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 #img-logo {
