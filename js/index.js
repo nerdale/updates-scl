@@ -10,13 +10,13 @@ function drawChart() {
     ['Abril', 531799, 424667, 1127316, 610000, 861500, 578334, 0],
     ['Mayo', 959201, 1073333, 1023982, 744167, 765389, 829167, 100000],
     ['Junio', 516819, 914167, 1081482, 1049167, 1435311, 880835, 226467],
-    ['Julio', 100, 100, 300, 400, 100, 350, 100]
+    ['Julio', 460186, 442501, 852215, 579167, 913334, 782501, 181467]
   ]);
 
   var options = {
     chart: {
       title: 'Ingresos mensuales Coders Fee',
-      subtitle: '2020',
+      subtitle: '2020 - Pesos Chilenos',
     },
     height: 400,
     series: {
@@ -33,3 +33,24 @@ function drawChart() {
 
   chart.draw(data, google.charts.Bar.convertOptions(options));
 }
+
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['', '$',  { role: 'style' }],
+        ['CF', 34858252, "color: #EC459E"],
+        ['Gastos', 209806274, "color: #EC459E"],
+      ]);
+
+      var options = {
+        title: 'Comparación Totales',
+        chartArea: {width: '50%'},
+          };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
