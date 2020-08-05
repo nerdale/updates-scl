@@ -1,0 +1,358 @@
+/* NO TOCAR ESTA PARTE - INICIO */
+*{
+    font-family: 'Bitter', serif;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col, [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+/* FIN */
+
+
+/* Pueden jugar con estos estilos si es que quieren ir experimentando :) */
+
+ul {
+    text-align: center;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+ul li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+ul li a {
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+}
+ul li a:hover {
+    display: inline;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+#container-logo {
+    width: 100%;
+    height: 5rem;
+    background-color:#FFFFFF;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#img-logo {
+    width: 70%;
+    padding-top: 2rem;
+
+}
+
+#yellow {
+    background-color: #fee54d;
+    padding: 4rem 0 4rem 0;
+    margin-top: 2rem;
+}
+
+h4 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.title-h5 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;   
+}
+p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bg-gray {
+    background-color: #F7F7F7;
+    padding-bottom: 2rem;
+}
+
+.bg-yellow {
+    background-color: #fee54d;
+}
+
+.bg-green {
+    background-color: #71F69A;
+}
+
+th, td {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.table {
+    text-align: center;
+}
+
+.title-h4 {
+    padding: 3rem 0 1.5rem 0;
+}
+
+.p-ux-fe-cc {
+    text-align: left;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+.h5-ux {
+    text-align: center;
+    background-color: #EC459E;
+    color: #FFFFFF;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.h5-fe {
+    text-align: center;
+    background-color: #fee54d;
+    color: #FFFFFF;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.h5-cc {
+    text-align: center;
+    background-color: #71F69A;
+    color: #FFFFFF;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.inline {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.margin-info {
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+#margin-especial {
+    margin-top: 3rem;
+}
+
+#final {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#final h4 {
+    margin-bottom: 2rem;
+}
+
+.margin-title-principal {
+    margin: 0 2rem 1rem 2rem;
+}
+
+.span-ux {
+    background-color: #EC459E;
+    color: #FFFFFF;
+}
+
+.span-fe {
+    background-color: #fee54d;
+}
+
+.span-cc {
+    background-color: #71F69A;
+}
+
+.span-title {
+    background: linear-gradient(to bottom, #fee54d 0%,#fee54d 51%,#ffffff 52%,#ffffff 100%);
+}
+
+.span-title-yellow {
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 51%, #fee54d 52%,#fee54d 100%);
+}
+
+.span-title-mentix {
+    background: linear-gradient(to bottom, #F7F7F7 0%, #F7F7F7 51%, #71F69A 52%,#71F69A 100%);
+}
+
+.subtitle {
+    margin: 0;
+}
+
+.gray {
+    color: gray;
+    font-style: italic;
+}
+
+.sprint {
+    margin-top: 3rem;
+}
+
+.sprint p {
+    color: gray;
+}
+
+.process {
+    font-size: 10px;
+    display: block;
+}
+
+.card-quote {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+}
+
+#extra {
+    margin-top: 4rem;
+}
+
+.gif {
+    margin-top: 2rem;
+}
+
+#porcentaje {
+    padding-bottom: 5rem;
+}
+
+#ucontratadas {
+    margin-bottom: 5rem;
+}
+
+#tablacontratadas {
+    margin-top: 3rem;
+}
+
+#tablainsights {
+    margin-bottom: 3rem;
+}
+
+#minititulo {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    text-align: leftenter;
+}
+
+.minititleh5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#contratadasmes {
+    margin-top: 7rem;
+}
+
+.img-icon {
+    width: 65%;
+}
+
+.iconscenter {
+   text-align: center;
+}
+
+.btn-close {
+    background-color: #fee54d;
+}
+
+.btn-event {
+    background-color: #fee54d;
+    margin-bottom: 2rem;
+}
+
+.container-buttons {
+    text-align: center;
+}
+
+.margin-btn {
+    margin: 0 0 2rem 0;
+}
+
+@media screen and (max-width: 480px) {
+    br {
+        display: none;
+    }
+    
+    thead { 
+        display: none; 
+    }
+
+    table th {
+        background-color: #71F69A;
+    }
+
+    table tr, table th, table td {
+        display: block;
+        padding: 0;
+        text-align: left;
+        white-space: normal;
+    }
+
+    table tr {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    table th[data-title]:before, table td[data-title]:before {
+        content: attr(data-title) ":\00A0";
+        font-weight: bold;
+    }
+
+    table td {
+        border: none;
+        margin-bottom: 6px;
+    }
+
+    table td:empty { 
+        display: none; 
+    }
+
+    table td:first-child {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    table td:first-child:before { 
+        content: ''; 
+    }
+
+    .bg-gray {
+        padding-bottom: 0;
+    }
+
+    .title-h4 {
+        padding: 1rem 0 1.5rem 0;
+    }
+    
+    #margin-especial {
+        margin-top: 0;
+    }
+    #porcentaje {
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+    }
+
+    #ucontratadas {
+        margin-bottom: 3.5rem;
+        padding-top: 2.5rem;
+    }
+
+    .img-icon {
+        width: 50%;
+    } 
+    
+    #resumenmes {
+        padding-top: 2rem;
+    }
+
+    
+    table #insightsamarillos {
+        background-color: #fee54d !important;
+    }
+
+}
