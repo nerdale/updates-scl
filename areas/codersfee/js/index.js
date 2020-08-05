@@ -40,7 +40,7 @@ google.charts.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
       var data = google.visualization.arrayToDataTable([
-        ['', '$',  { role: 'style' }],
+        ['', '',  { role: 'style', }],
         ['CF', 34858252, "color: #EC459E"],
         ['Gastos', 209806274, "color: #EC459E"],
       ]);
@@ -48,6 +48,7 @@ function drawBasic() {
       var options = {
         title: 'Comparación Totales',
         chartArea: {width: '50%'},
+        colors: ['white']
           };
 
       var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
