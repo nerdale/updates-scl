@@ -325,6 +325,11 @@ ul li a:hover {
         white-space: nowrap;
     }
 
+    #columnchart_material2 {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
     #titulohalloffame {
         padding-top: 5rem;
     }
